@@ -1,6 +1,7 @@
 import "./App.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Test from "./components/Test";
 
 function App() {
   const [name, setUserName] = useState("");
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <h1 className="title">Front end</h1>
       <h1>Hello {name}</h1>
+      <Test />
     </div>
   );
 }
